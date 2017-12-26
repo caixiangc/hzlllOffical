@@ -1,0 +1,85 @@
+.contain {
+  width: 1100px;
+  margin: 0 auto;
+  height: 3900px;
+}
+.contain .lunbo {
+  width: 1100px;
+  height: 458px;
+  margin: 0 auto;
+}
+.contain .zsjz {
+  width: 100%;
+  margin-top: 22px;
+  background: #FFF;
+}
+.contain .zsjz img {
+  width: 879px;
+  height: 159px;
+  margin: 0 auto;
+  display: block;
+}
+.contain .school_det {
+  width: 1100px;
+  height: 60px;
+  background: #50C1E9;
+  position: relative;
+  margin-top: 30px;
+}
+.contain .school_det .sanjiaos {
+  width: 0px;
+  height: 0px;
+  border-top: 20px solid #50C1E9;
+  border-left: 20px solid #f4f4f4;
+  border-right: 20px solid #f4f4f4;
+  border-bottom: 20px solid #f4f4f4;
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+.contain .school_det h4 {
+  font-size: 16px;
+  color: white;
+  line-height: 60px;
+  text-indent: 21px;
+}
+.contain .school_det .left {
+  width: 660px;
+  margin-left: 10px;
+}
+.contain .school_det .left strong {
+  color: #fe6e4b;
+  font-size: 18px;
+  margin-top: 30px ;
+  margin-left: 19px;
+  width: 180px;
+  height: 24px;
+  display: block;
+}
+.contain .school_det .left p {
+  width: 375px;
+  display: block;
+  margin-top: 20px;
+  color: #888888;
+  font-size: 12px;
+  margin-left: 19px;
+}
+.contain .school_det .training_pro {
+  width: 100%;
+  background: #FFF;
+  margin-top: 30px;
+  padding-top: 10px;
+  display: block;
+}
+.contain .school_det .training_pro p {
+  font-size: 14px;
+  color: #888888;
+  margin-left: 40px;
+  margin-top: 20px;
+  display: block;
+}
+.contain .school_det .training_pro img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

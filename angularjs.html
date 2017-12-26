@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script>
+	    var app= angular.module("myApp", []);
+	    app.controller('parentController',function ($scope) {
+            $scope.person={greeted:false};
+            $scope.person.names="cai xiang "
+		  // $scope.person.greeted = true;
+		    //这两种只是不同的写法
+	    });
+	    //所有控制器中的$scope 域中的值 ，是共同拥有的
+	    app.controller('childrenController',function ($scope) {
+	        $scope.sayhello=function () {
+		        $scope.person.name='cai';
+		        $scope.person.greeted = true;
+		//由dom结构可知 childrenctr在parentsctr里面 ，所以children可以访问patriotic的内容
+	        
+	        }
+        })
+    </script>
+</head>
+<body>
+<div ng-controller="parentController">
+        <div ng-controller="childrenController">
+            <div ng-click="sayhello()">say hello</div>
+            children：{{person.name}}
+        </div>
+        parents： {{person}}  <!--这里输出的person的值是一个数组是所有关于这个$scope 下面的person的值-->
+    {{person.names}}
+</div>
+
+</body>
+</html>

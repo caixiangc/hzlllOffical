@@ -1,0 +1,47 @@
+.boxsizing(@sizing:border-box) {
+    -moz-box-sizing:@sizing;
+    -webkit-box-sizing:@sizing;
+    box-sizing:@sizing;
+}
+.opacity(@city:0.5) {
+    @IEcity:@city*100;
+    filter:Alpha(opacity= @IEcity);
+    -moz-opacity:@city;
+    -khtml-opacity:@city;
+    opacity:@city;
+}
+.boxradius(all,@r) {
+    -moz-border-radius:@r;
+    -webkit-border-radius:@r;
+    border-radius:@r;
+}
+.boxradius(tl,@r) {
+    -moz-border-radius-topleft:@r;
+    -webkit-border-top-left-radius:@r;
+    border-top-left-radius:@r;
+}
+.boxradius(tr,@r) {
+    -moz-border-radius-topright:@r;
+    -webkit-border-top-right-radius:@r;
+    border-top-right-radius:@r;
+}
+.boxradius(bl,@r) {
+    -moz-border-radius-bottomleft:@r;
+    -webkit-border-bottom-left-radius:@r;
+    border-bottom-left-radius:@r;
+}
+.boxradius(br,@r) {
+    -moz-border-radius-bottomright:@r;
+    -webkit-border-bottom-right-radius:@r;
+    border-bottom-left-radius:@r;
+}
+.backgroundsize(@w:auto,@h:auto) {
+    -webkit-background-size:@w,@h; background-size:@w,@h;
+}
+.backgroundgradients(@top:top,@from:#C0052D,@to:#EB2851) {
+    background:-moz-linear-gradient(@top, @from, @to);
+    background:-webkit-linear-gradient(@top, @from, @to);
+    background:-o-linear-gradient(@top, @from, @to);
+    background:-ms-linear-gradient(@top, @from, @to);
+    background:linear-gradient(@top, @from, @to);
+}

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"  href="css/pub/global.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jnxl.css"/>
+    <script src="js/require.js" data-main="app"></script>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--在ie运行最新的渲染模式-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--页面的宽度等于物理设备的宽度-->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]> 如果浏览器版本低于ie9 则引用下面的部分
+<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        @media only screen and (max-width:1200px){
+            .title{ width: 1200px;}
+            .nav{width: 1200px;}
+            .focus{ width: 1200px;}
+            .copyright{ width: 1200px;}
+        }
+    </style>
+</head>
+<body style="font-family: Microsoft YaHei;background: #f4f4f4">
+<div class="title">
+    <div class="title-in f-ma">
+        <div class="left f-fl">
+            <img src="img/杭科院logo.png" alt=""/>
+        </div>
+        <div class="mid f-fl">
+            <h1>杭州广播电视大学</h1>
+            <h2>继续教育学院/成人教育学院/开放教育学院</h2>
+        </div>
+        <div class="right f-fr" style="">
+            <a>在校职工</a><a>教职工</a><a>合作者</a><a style="font-size: 12px;">登入</a><a style="font-size: 12px;">注册</a>
+            <div style="margin-top: 15px;position: relative;font-size: 10px;">
+                <a href="">设为首页</a><a href="">|</a><a href="">加入收藏</a><br>
+                <a href="">信息公开</a><a href="">|</a><a href="">校园导航</a>
+                <div style="position: absolute; top:12px;right: -45px;">
+                    <input type="text" placeholder="输入关键词" style=""/>
+                    <input type="button" value="搜索"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav f-ma">
+    <ul class="nav-menu">
+        <li><a href="index.html">首页</a></li>
+        <li style="position: relative"><a href="#newss">新闻</a>
+            <ul class="Sub">
+                <li><a href="NEWS.html" target="_blank" >学校动态</a></li>
+                <li><a href="NEWS.html" target="_blank">通知公告</a></li>
+                <li><a href="NEWS.html" target="_blank">综合资讯</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">人才培养<!--position: absolute; 一般只和他上一级的position: relative;相呼应， 就近原则 -->
+            <ul class="Sub">
+                <li class="r_s"><a href="education.html" target="_blank">学历</a>
+                    <ul class="Sub-t">
+                        <li><a href="school_details.html" target="_blank">国家开放大学</a></li>
+                        <li><a href="school_details.html" target="_blank">浙江大学</a></li>
+                        <li><a href="school_details.html" target="_blank">中国人民大学</a></li>
+                        <li><a href="school_details.html" target="_blank">杭科院</a></li>
+                        <li><a href="school_details.html" target="_blank">华东师范大学</a></li>
+                    </ul>
+                </li>
+                <li><a href="train.html" target="_blank">培训</a></li>
+                <li class="r_s">技能+学历
+                    <ul class="Sub-t">
+                        <li><a href="skill+edu.html" target="_blank">五年一贯制</a></li>
+                        <li><a href="sskill+edu_spe.html" target="_blank">专科直属班</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li style="position: relative">终生教育
+            <ul class="Sub">
+                <li><a href="school_details.html" target="_blank" >杭州社区大学</a></li>
+                <li><a href="school_details.html" target="_blank">杭州市民大学</a></li>
+                <li><a href="school_details.html" target="_blank">语言文字委员会</a></li>
+                <li><a href="school_details.html" target="_blank">杭州市终生学习网</a></li>
+                <li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+                <li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+                <li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">学术研究
+            <ul class="Sub">
+                <li><a href="academic_res_test.html?aca_association" target="_blank">杭州远程教育协会</a></li>
+                <li><a href="academic_res_test.html?aca_news" target="_blank">学术研究新闻</a></li>
+                <li><a href="academic_res_test.html?aca_download" target="_blank">相关资料下载</a></li>
+                <li><a href="academic_res_test.html?aca_system" target="_blank">规章制度</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">校园文化
+            <ul class="Sub">
+                <li><a href="school_culture.html" target="_blank">校园文化新闻</a></li>
+                <li><a href="school_culture.html" target="_blank">资料下载</a></li>
+                <li><a href="school_culture.html" target="_blank">校园指南</a></li>
+                <li><a href="school_culture.html" target="_blank">规章制度</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">关于我们
+            <ul class="Sub">
+                <li><a href="AboutUS.html?school_detail" target="_blank">学校简介</a></li>
+                <li><a href="AboutUS.html?manager_or" target="_blank">学校机构设置</a></li>
+                <li><a href="AboutUS.html?video" target="_blank">校园风光</a></li>
+                <li><a href="AboutUS.html?photo" target="_blank">学校纪录片</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">我的学习
+            <ul class="Sub">
+                <li><a href="http://baidu.com" target="_blank">浙大学习</a></li>
+                <li><a href="http://baidu.com" target="_blank">人大学习</a></li>
+                <li><a href="http://baidu.com" target="_blank">进入在线学习平台</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+<div class="f-cb"></div>
+<div class="contain" style="height: 3600px;">
+    <div class="lunbo">
+        <img src="img/jn+xl.png" alt=""/>
+    </div>
+    <div class="zsjz">
+        <img src="img/招生简章.png" alt=""/>
+    </div>
+    <div class="school_det f-ma">
+        <h4>学校简介</h4>
+        <div class="sanjiaos"></div><!--绝对定位桌三角型 必须要 把父级元素的高给设置不然会看不到绝对定位的div 因为它脱离文档流-->
+        <div class="f-cb"></div>
+        <div class="left f-fl">
+            <strong>杭州科技职业技术学院</strong>
+            <p>是杭州市人民政府主办的一所普通高等职业院校。学校坚持
+                立足杭州、面向浙江、辐射长三角，紧密结合高新技术产业
+                和现代服务业的发展需求，以土建类、制造类和文化教育类
+                专业为重点，电子信息类、艺术设计传媒类、财经类、旅游
+                类等专业协调发展，职业教育与终身学习紧密对接，力争建
+                设成为人民群众满意的省内高职强校，为区域经济社会发展
+                提供技术技能人才支持。</p>
+        </div>
+        <div class="right f-fl">
+            <img src="img/学校简介.png" alt=""/>
+        </div>
+    </div>
+
+    <div class="f-cb"></div>
+    <div class="school_det f-ma" style="background: #A0D468;">
+        <h4>招生对象</h4>
+        <div class="sanjiaos" style="border-top: 20px solid #a0d468"></div><!--绝对定位桌三角型 必须要 把父级元素的高给设置不然会看不到绝对定位的div 因为它脱离文档流-->
+        <div class="f-cb"></div>
+        <div class="left f-fl">
+            <strong style="color: #888888; width: 460px;">凡高中、职高、技校、中专毕业生凭毕业证书均可报名。</strong>
+        </div>
+    </div>
+    <div class="f-cb"></div>
+    <div class="school_det f-ma" style="background: #50C1E9;">
+        <h4>项目介绍</h4>
+        <div class="sanjiaos" style="border-top: 20px solid #50c1e9"></div><!--绝对定位桌三角型 必须要 把父级元素的高给设置不然会看不到绝对定位的div 因为它脱离文档流-->
+        <div class="f-cb"></div>
+        <div class="left f-fl">
+            <p style="margin-top: 40px;">本项目旨在培养适应社会经济发展需要的高素质技能
+                型人才，学生以技能培训生身份脱产学习三年。学校
+                将按照职业技能的培养要求组织教学，学生参加职业
+                资格证书考试合格后，颁发国家或行业认可的职业资
+                格证书。
+            </p>
+
+            <p>
+                参加技能培训期间，学生可根据个人职业生涯发展的
+                需要，自愿选择参加我校成人类大专学历层次课程的
+                学习。学生参加教育主管部门认可的入学考试，被录
+                取后可取得成人大专学籍，符合毕业条件颁发国家教
+                育部电子注册的成人高等教育大专毕业证书。
+            </p>
+            <p>
+                学校与浙江科技学院、中国人民大学、浙江工业大学
+                等知名院校开展专升本合作，向学有余力的同学提供
+                专升本通道。
+            </p>
+        </div>
+        <div class="right f-fl">
+            <img src="img/edu_special.png" alt="" style="margin-top: 15px;"/>
+        </div>
+    </div>
+
+    <div class="f-cb"></div>
+    <div class="school_det f-ma" style="background: #50c1e9;">
+        <h4>招生专业</h4>
+        <div class="sanjiaos" style="border-top: 20px solid #50c1e9"></div><!--绝对定位桌三角型 必须要 把父级元素的高给设置不然会看不到绝对定位的div 因为它脱离文档流-->
+        <div class="f-cb"></div>
+        <div class="training_pro f-fl" style="height: 1450px; background: none;">
+            <img src="img/jn+xl_zhuankeb.png" alt=""/>
+            <div class="f-cb"></div>
+            <p>1.技能培训费和学历教育学费详见上表，技能培训费按5年收取，中专学历教育学费按2年收取，大专学历教育学费i按2.5年收取。<br>
+                2.学历教育报名费、保险费等相关费用，按国家标准收取，由学生自理。<br>
+                3.证书考试费、证书认证费由学生自理，在考试报名前，由学校按考试组织机构核准的价格代收。<br>
+                4.代管费按400元/年标准预收，按实结算，多退少补。代管费用于开支教材费和体检费。<br>
+                5.住宿费1000-1200元/年，根据实际住宿条件，按浙江省教育厅相关标准收取。</p>
+        </div>
+        <div class="f-cb"></div>
+    </div>
+    <div class="f-cb"></div>
+    <div class="school_det f-ma">
+        <h4>报名手续</h4>
+        <div class="sanjiaos"></div><!--绝对定位桌三角型 必须要 把父级元素的高给设置不然会看不到绝对定位的div 因为它脱离文档流，还有宽度也最好让他自己撑开。。。-->
+        <div class="f-cb"></div>
+        <div class="left f-fl" style="margin-left: 10px; margin-top: 20px;">
+            <p style="font-size: 14px;">1.报名学生须提供以下材料：<br>
+                （1）身份证（或户口本）原件及复印件；<br>
+                （2）一寸、二寸正面免冠蓝底照片各8张。<br>
+                2.填写学生信息表，预交培训费1000元。<br>
+                3.统一寄发《入学通知书》，学生凭《入学通知书》和预收款收据来校报到</p>
+        </div>
+    </div>
+    <div class="f-cb"></div>
+    <div class="school_det f-ma">
+        <h4>报名资讯</h4>
+        <div class="sanjiaos"></div><!--绝对定位桌三角型 必须要 把父级元素的高给设置不然会看不到绝对定位的div 因为它脱离文档流-->
+        <div class="f-cb"></div>
+        <div class="left f-fl" style="margin-left: 10px; margin-top: 20px;">
+            <p style="font-size: 14px;">
+                报名地址：杭州市西湖区毛家桥路26号<br>
+                咨询电话：0571-28288096 0571-88935100
+            </p>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="copyright">
+    <div class="copyright-in">
+        <div class="copaddress f-fl" style="margin-left: 50px;">
+            <p style="line-height: 68px;">翠苑校区地址：杭州市文一西路37号 邮政编码：310012</p>
+            <p>Copyright@ 杭州科技职业技术学院版权所有 地址：中国浙江杭州富阳高科路198号 邮编：311402 浙ICP备09020157号</p>
+        </div>
+        <div class="cop_us f-fl" style="margin-top: 30px;">
+            <img src="img/微信.png" alt="" style="float: left;width: 30px;height: 25px; margin-left: 10px"/>
+            <img src="img/QQ.png" alt="" style="float: left;width: 24px;height: 25px;margin-left: 10px"/>
+            <img src="img/新浪.png" alt="" style="float: left;width: 30px;height: 24px;margin-left: 10px"/>
+            <div class="f-cb"></div>
+            <h5 style="color: #FFF;display: block; margin-top: 5px; text-align:  center;width: 137px;">联系我们</h5>
+        </div>
+    </div>
+    <div style="width: 41px;height: 100px; position: fixed;top: 75%;right:0%; display: none;" id="return_sign" class="return_top">
+        <img src="img/返回上层.png" alt="" id="return_top"/>
+        <img src="img/更多.png" alt=""/>
+    </div>
+</div>
+<script>
+    $(window).load(function() {
+        $("#background").fullBg();
+    });
+    $(window).load(function() {
+        $("#background1").fullBg();
+    });
+    $(window).load(function() {
+        $("#background2").fullBg();
+    });
+    $(window).load(function() {
+        $("#background3").fullBg();
+    });
+    $(window).load(function() {
+        $("#background4").fullBg();
+    });
+</script>
+</body>
+</html>

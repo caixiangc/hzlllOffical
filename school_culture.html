@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"  href="css/pub/global.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/school_culture.css"/>
+    <script src="js/require.js" data-main="app"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullbg.js"></script>
+    <script type="text/javascript" src="js/L_slide.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--在ie运行最新的渲染模式-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--页面的宽度等于物理设备的宽度-->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]> 如果浏览器版本低于ie9 则引用下面的部分
+<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        .fullBg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+        .div{width:100%; height:450px; margin:0 0; overflow:hidden; position:relative; float:left;}
+        .div1{width:100%; height:450px; margin:0 0; overflow:hidden; position:relative; float:left;}
+        .div2{width:100%; height:450px; margin:0 0; overflow:hidden; position:relative; float:left;}
+        @media only screen and (max-width:1200px){
+            .title{ width: 1200px;}
+            .nav{width: 1200px;}
+            .picshow{ width: 1200px;}
+            .copyright{ width: 1200px;}
+        }
+    </style>
+
+</head>
+<body style="font-family: Microsoft YaHei;background: #f4f4f4">
+<div class="title">
+    <div class="title-in f-ma">
+        <div class="left f-fl">
+            <img src="img/杭科院logo.png" alt=""/>
+        </div>
+        <div class="mid f-fl">
+            <h1>杭州广播电视大学</h1>
+            <h2>继续教育学院/成人教育学院/开放教育学院</h2>
+        </div>
+        <div class="right f-fr" style="">
+            <a>在校职工</a><a>教职工</a><a>合作者</a><a style="font-size: 12px;">登入</a><a style="font-size: 12px;">注册</a>
+            <div style="margin-top: 15px;position: relative;font-size: 10px;">
+                <a href="">设为首页</a><a href="">|</a><a href="">加入收藏</a><br>
+                <a href="">信息公开</a><a href="">|</a><a href="">校园导航</a>
+                <div style="position: absolute; top:12px;right: -45px;">
+                    <input type="text" placeholder="输入关键词" style=""/>
+                    <input type="button" value="搜索"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav f-ma">
+    <ul class="nav-menu">
+        <li><a href="index.html">首页</a></li>
+        <li style="position: relative"><a href="#newss">新闻</a>
+            <ul class="Sub">
+                <li><a href="NEWS.html" target="_blank" >学校动态</a></li>
+                <li><a href="NEWS.html" target="_blank">通知公告</a></li>
+                <li><a href="NEWS.html" target="_blank">综合资讯</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">人才培养<!--position: absolute; 一般只和他上一级的position: relative;相呼应， 就近原则 -->
+            <ul class="Sub">
+                <li class="r_s"><a href="education.html" target="_blank">学历</a>
+                    <ul class="Sub-t">
+                        <li><a href="school_details.html" target="_blank">国家开放大学</a></li>
+                        <li><a href="school_details.html" target="_blank">浙江大学</a></li>
+                        <li><a href="school_details.html" target="_blank">中国人民大学</a></li>
+                        <li><a href="school_details.html" target="_blank">杭科院</a></li>
+                        <li><a href="school_details.html" target="_blank">华东师范大学</a></li>
+                    </ul>
+                </li>
+                <li><a href="train.html" target="_blank">培训</a></li>
+                <li class="r_s">技能+学历
+                    <ul class="Sub-t">
+                        <li><a href="skill+edu.html" target="_blank">五年一贯制</a></li>
+                        <li><a href="sskill+edu_spe.html" target="_blank">专科直属班</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li style="position: relative">终生教育
+            <ul class="Sub">
+                <li><a href="school_details.html" target="_blank" >杭州社区大学</a></li>
+                <li><a href="school_details.html" target="_blank">杭州市民大学</a></li>
+                <li><a href="school_details.html" target="_blank">语言文字委员会</a></li>
+                <li><a href="school_details.html" target="_blank">杭州市终生学习网</a></li>
+                <li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+                <li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+                <li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">学术研究
+            <ul class="Sub">
+                <li><a href="academic_res_test.html?aca_association" target="_blank">杭州远程教育协会</a></li>
+                <li><a href="academic_res_test.html?aca_news" target="_blank">学术研究新闻</a></li>
+                <li><a href="academic_res_test.html?aca_download" target="_blank">相关资料下载</a></li>
+                <li><a href="academic_res_test.html?aca_system" target="_blank">规章制度</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">校园文化
+            <ul class="Sub">
+                <li><a href="school_culture.html" target="_blank">校园文化新闻</a></li>
+                <li><a href="school_culture.html" target="_blank">资料下载</a></li>
+                <li><a href="school_culture.html" target="_blank">校园指南</a></li>
+                <li><a href="school_culture.html" target="_blank">规章制度</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">关于我们
+            <ul class="Sub">
+                <li><a href="AboutUS.html?school_detail" target="_blank">学校简介</a></li>
+                <li><a href="AboutUS.html?manager_or" target="_blank">学校机构设置</a></li>
+                <li><a href="AboutUS.html?video" target="_blank">校园风光</a></li>
+                <li><a href="AboutUS.html?photo" target="_blank">学校纪录片</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">我的学习
+            <ul class="Sub">
+                <li><a href="http://baidu.com" target="_blank">浙大学习</a></li>
+                <li><a href="http://baidu.com" target="_blank">人大学习</a></li>
+                <li><a href="http://baidu.com" target="_blank">进入在线学习平台</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+
+<div class="f-cb"></div><!--清楚浮动很重要，因为之前虽然.lunbo没有设置浮动，但是它里面的元素设有浮动和绝对定位，他们是脱离文档流的 ，要想不被覆盖那么就要清楚浮动-->
+<div class="picshow">
+    <div class="pic_left f-fl" style="">
+        <div class="div"><!---->
+            <img src="img/school_culture_left.png" alt="" id="background" class="cc"  style="position: relative; left: -80%;top: -20%;" />
+        </div>
+        <div class="bocontain" >校园运动会|感受学员运动场上的风采！</div>
+        <div class="border_line"></div><!--一个元素的hover 不能有控制自己有控制别人； 只能用第三方第元素控制其他两个-->
+    </div>
+    <div class="mid f-fl">
+        <div class="div">
+            <img src="img/school_culture_right1.png" alt="" id="background1"  style="position: relative; left: -120%;top: -50%;"   />
+        </div>
+        <div class="bocontain" >学校远程教育表彰大会</div>
+        <div class="border_line"></div><!--一个元素的hover 不能有控制自己有控制别人； 只能用第三方第元素控制其他两个-->
+    </div>
+    <div class="mid f-fl">
+        <div class="div">
+            <img src="img/school_culture_right2.png" alt="" id="background2"  style="position: relative; left: -50%;top: -30%;"  />
+        </div>
+        <div class="bocontain" >毕业，老师给予毕业典礼</div>
+        <div class="border_line"></div><!--一个元素的hover 不能有控制自己有控制别人； 只能用第三方第元素控制其他两个-->
+    </div>
+    <!--
+    <div class="right f-fl">
+
+    </div>
+    -->
+</div>
+<div class="school_contain">
+<div class="f-cb"></div>
+
+    <div class="left_contain f-fl">
+        <div class="news_title">校园文化新闻</div>
+        <div class="mod">
+            <div class="announce">通知公告</div>
+            <br>
+
+            <div class="date">2016/7/22</div>
+            <div class="f-cb"></div>
+            <h4>杭州科技职业技术学院2016年“技能+学历”五年一贯制...</h4>
+            <div class="f-cb"></div>
+            <p>杭州科技职业技术学院是杭州市人民政府主办的一所普通高等职业院校，学校
+                坚持立足杭州、面向浙江、辐射长三角，紧密结合高新技术产业和现代服务业
+                的发展需求，以土建类、制造类和文化教育类专业为重点，电子信息类、艺术
+                设计传媒类、财经类、旅游类等专业协调发展，职业教育.......</p>
+        </div>
+        <div class="mod">
+            <div class="date">2016/7/22</div>
+            <div class="f-cb"></div>
+            <h4>杭州科技职业技术学院2016年“技能+学历”五年一贯制...</h4>
+            <div class="f-cb"></div>
+            <p>杭州科技职业技术学院是杭州市人民政府主办的一所普通高等职业院校，学校
+                坚持立足杭州、面向浙江、辐射长三角，紧密结合高新技术产业和现代服务业
+                的发展需求，以土建类、制造类和文化教育类专业为重点，电子信息类、艺术
+                设计传媒类、财经类、旅游类等专业协调发展，职业教育.......</p>
+        </div>
+        <div class="mod">
+            <div class="date">2016/7/22</div>
+            <div class="f-cb"></div>
+            <h4>杭州科技职业技术学院2016年“技能+学历”五年一贯制...</h4>
+            <div class="f-cb"></div>
+            <p>杭州科技职业技术学院是杭州市人民政府主办的一所普通高等职业院校，学校
+                坚持立足杭州、面向浙江、辐射长三角，紧密结合高新技术产业和现代服务业
+                的发展需求，以土建类、制造类和文化教育类专业为重点，电子信息类、艺术
+                设计传媒类、财经类、旅游类等专业协调发展，职业教育.......</p>
+        </div>
+        <div class="news_title">校园文化新闻</div>
+
+        <div class="mod">
+            <div class="announce">通知公告</div>
+            <br>
+
+            <div class="date">2016/7/22</div>
+            <div class="f-cb"></div>
+            <h4>杭州科技职业技术学院2016年“技能+学历”五年一贯制...</h4>
+            <div class="f-cb"></div>
+            <p>杭州科技职业技术学院是杭州市人民政府主办的一所普通高等职业院校，学校
+                坚持立足杭州、面向浙江、辐射长三角，紧密结合高新技术产业和现代服务业
+                的发展需求，以土建类、制造类和文化教育类专业为重点，电子信息类、艺术
+                设计传媒类、财经类、旅游类等专业协调发展，职业教育.......</p>
+        </div>
+        <div class="mod">
+            <div class="date">2016/7/22</div>
+            <div class="f-cb"></div>
+            <h4>杭州科技职业技术学院2016年“技能+学历”五年一贯制...</h4>
+            <div class="f-cb"></div>
+            <p>杭州科技职业技术学院是杭州市人民政府主办的一所普通高等职业院校，学校
+                坚持立足杭州、面向浙江、辐射长三角，紧密结合高新技术产业和现代服务业
+                的发展需求，以土建类、制造类和文化教育类专业为重点，电子信息类、艺术
+                设计传媒类、财经类、旅游类等专业协调发展，职业教育.......</p>
+        </div>
+        <div class="mod">
+            <div class="date">2016/7/22</div>
+            <div class="f-cb"></div>
+            <h4>杭州科技职业技术学院2016年“技能+学历”五年一贯制...</h4>
+            <div class="f-cb"></div>
+            <p>杭州科技职业技术学院是杭州市人民政府主办的一所普通高等职业院校，学校
+                坚持立足杭州、面向浙江、辐射长三角，紧密结合高新技术产业和现代服务业
+                的发展需求，以土建类、制造类和文化教育类专业为重点，电子信息类、艺术
+                设计传媒类、财经类、旅游类等专业协调发展，职业教育.......</p>
+        </div>
+    </div>
+
+    <div class="mid_contain f-fl">
+        <div class="mid_mod">
+            <div class="mid_top">
+                <img src="img/方块psb.png" alt=""/>
+                推荐动态</div>
+            <div class="kuang">
+                <img src="img/recommand.png" alt="" style="margin-top: 16px;"/>
+            </div>
+            <ol>
+                <li>· 外来领导来我校开展...</li>
+                <li>· 我校召开国家开放大学非学历....</li>
+            </ol>
+        </div>
+        <div class="mid_mod">
+            <div class="mid_top">
+                推荐动态</div>
+            <div class="kuang">
+                <img src="img/rm1.png" alt="" style="margin-top: 16px;"/>
+            </div>
+            <ol>
+                <li>· 外来领导来我校开展...</li>
+                <li>· 我校召开国家开放大学非学历....</li>
+            </ol>
+        </div>
+        <div class="mid_mod">
+            <div class="mid_top">
+                推荐动态</div>
+            <div class="kuang">
+                <img src="img/rm2.png" alt="" style="margin-top: 16px;"/>
+            </div>
+            <ol>
+                <li>· 外来领导来我校开展...</li>
+                <li>· 我校召开国家开放大学非学历....</li>
+            </ol>
+        </div>
+        <div class="mid_mod">
+            <div class="mid_top">
+                <img src="img/方块psb.png" alt=""/>
+                热门资讯</div>
+            <div class="kuang">
+                <img src="img/rm3.png" alt="" style="margin-top: 16px;"/>
+            </div>
+            <ol>
+                <li>· 外来领导来我校开展...</li>
+                <li>· 我校召开国家开放大学非学历....</li>
+            </ol>
+        </div>
+        <div class="mid_mod">
+            <div class="mid_top">
+                推荐动态</div>
+            <div class="kuang">
+                <img src="img/rm4.png" alt="" style="margin-top: 16px;"/>
+            </div>
+            <ol>
+                <li>· 外来领导来我校开展...</li>
+                <li>· 我校召开国家开放大学非学历....</li>
+            </ol>
+        </div>
+        <div class="mid_mod">
+            <div class="mid_top">
+                推荐动态</div>
+            <div class="kuang">
+                <img src="img/rm5.png" alt="" style="margin-top: 16px;"/>
+            </div>
+            <ol>
+                <li>· 外来领导来我校开展...</li>
+                <li>· 我校召开国家开放大学非学历....</li>
+            </ol>
+        </div>
+
+    </div>
+    <div class="right_contain f-fl">
+        <div class="right_mod" style="height: 155px;">
+            <div class="right_top">
+                <img src="img/方块psb.png" alt=""/>
+                推荐动态</div>
+            <p>·  暑假，拒绝颓废！</p>
+            <p>·  "葛优躺"爆红</p>
+            <p>·  我喜爱一切不彻底的事物</p>
+        </div>
+        <div class="right_mod" style="margin-top: 10px; height: 350px;margin-top: 30px;">
+            <div class="right_top" style="width: 302px;">
+                <img src="img/方块psb.png" alt=""/>
+                名师驾到</div>
+            <div class="kuang">
+                <img src="img/名师.png" alt="" style="margin-top: 16px;"/>
+            </div>
+            <h5 style="text-indent: 30px; margin: 20px 40px;">陈先生</h5>
+            <h5 style="text-indent: 20px;">中国政法大学新闻与传播学院副教授，新
+                媒体研究所所长。</h5>
+        </div>
+        <div class="right_mod" style="height: 174px; margin-top: 30px;">
+            <div class="right_top">
+                <img src="img/方块psb.png" alt=""/>
+                资料下载</div>
+            <p>·  复习资料</p>
+            <p>·  模拟试卷</p>
+            <p>·  考试联系</p>
+        </div>
+        <div class="right_mod" style="height: 100px; margin-top: 30px;">
+            <div class="right_top">
+                <img src="img/方块psb.png" alt=""/>
+                校园指南</div>
+            <p>·  校园指南下载</p>
+        </div>
+        <div class="right_mod" style="height: 150px;margin-top: 30px;">
+            <div class="right_top">
+                <img src="img/方块psb.png" alt=""/>
+                规章制度</div>
+            <p>·  规章制度</p>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+<div class="f-cb"></div>
+<div class="copyright">
+    <div class="copyright-in">
+        <div class="copaddress f-fl" style="margin-left: 50px;">
+            <p style="line-height: 68px;">翠苑校区地址：杭州市文一西路37号 邮政编码：310012</p>
+            <p>Copyright@ 杭州科技职业技术学院版权所有 地址：中国浙江杭州富阳高科路198号 邮编：311402 浙ICP备09020157号</p>
+        </div>
+        <div class="cop_us f-fl" style="margin-top: 30px;">
+            <img src="img/微信.png" alt="" style="float: left;width: 30px;height: 25px; margin-left: 10px"/>
+            <img src="img/QQ.png" alt="" style="float: left;width: 24px;height: 25px;margin-left: 10px"/>
+            <img src="img/新浪.png" alt="" style="float: left;width: 30px;height: 24px;margin-left: 10px"/>
+            <div class="f-cb"></div>
+            <h5 style="color: #FFF;display: block; margin-top: 5px; text-align:  center;width: 137px;">联系我们</h5>
+        </div>
+    </div>
+    <div style="width: 41px;height: 100px; position: fixed;top: 75%;right:0%; display: none;" id="return_sign" class="return_top">
+        <img src="img/返回上层.png" alt="" id="return_top"/>
+        <img src="img/更多.png" alt=""/>
+    </div>
+</div>
+<script>
+    $(window).load(function() {
+        $("#background").fullBg();
+    });
+    $(window).load(function() {
+        $("#background1").fullBg();
+    });
+    $(window).load(function() {
+        $("#background2").fullBg();
+    });
+    $(window).load(function() {
+        $("#background3").fullBg();
+    });
+    $(window).load(function() {
+        $("#background4").fullBg();
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css"  href="css/pub/global.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/train.css"/>
+	<link rel="stylesheet" type="text/css" href="css/Aboutus.css"/>
+
+	<script src="js/require.js" data-main="app"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullbg.min.js"></script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--在ie运行最新的渲染模式-->
+	<!--页面的宽度等于物理设备的宽度-->
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>Bootstrap 101 Template</title>
+	<!-- Bootstrap -->
+	<link href="bootstrap-3.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]> 如果浏览器版本低于ie9 则引用下面的部分
+<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<style>
+		@media only screen and (max-width:1200px){
+			.title{ width: 1200px;}
+			.nav{width: 1200px;}
+			.contain{ width: 1200px;}
+			.lunbo{ width: 1200px;}
+			.copyright{ width: 1200px;}
+		}
+	</style>
+</head>
+<body style="font-family: Microsoft YaHei;background: #f4f4f4">
+<!--title-->
+<div class="title">
+	<div class="title-in f-ma">
+		<div class="left f-fl">
+			<img src="img/杭科院logo.png" alt=""/>
+		</div>
+		<div class="mid f-fl">
+			<h1>杭州科技职业技术学院</h1>
+			<h2>成教学院</h2>
+		</div>
+		<div class="right f-fr" style="">
+			<a>在校职工</a><a>教职工</a><a>合作者</a><a style="font-size: 12px;">登入</a><a style="font-size: 12px;">注册</a>
+			<div style="margin-top: 15px;position: relative;font-size: 10px;">
+				<a href="">设为首页</a><a href="">|</a><a href="">加入收藏</a><br>
+				<a href="">信息公开</a><a href="">|</a><a href="">校园导航</a>
+				<div style="position: absolute; top:12px;right: -45px;">
+					<input type="text" placeholder="输入关键词" style=""/>
+					<input type="button" value="搜索"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--nav-->
+<div class="nav f-ma">
+	<ul class="nav-menu">
+		<li><a href="index.html">首页</a></li>
+		<li style="position: relative"><a href="#newss">新闻</a>
+			<ul class="Sub">
+				<li><a href="NEWS.html" target="_blank" >学校动态</a></li>
+				<li><a href="NEWS.html" target="_blank">通知公告</a></li>
+				<li><a href="NEWS.html" target="_blank">综合资讯</a></li>
+			</ul>
+		</li>
+		<li style="position: relative">人才培养<!--position: absolute; 一般只和他上一级的position: relative;相呼应， 就近原则 -->
+			<ul class="Sub">
+				<li class="r_s"><a href="education.html" target="_blank">学历</a>
+					<ul class="Sub-t">
+						<li><a href="school_details.html" target="_blank">国家开放大学</a></li>
+						<li><a href="school_details.html" target="_blank">浙江大学</a></li>
+						<li><a href="school_details.html" target="_blank">中国人民大学</a></li>
+						<li><a href="school_details.html" target="_blank">杭科院</a></li>
+						<li><a href="school_details.html" target="_blank">华东师范大学</a></li>
+					</ul>
+				</li>
+				<li><a href="train.html" target="_blank">培训</a></li>
+				<li class="r_s">技能+学历
+					<ul class="Sub-t">
+						<li><a href="skill+edu.html" target="_blank">五年一贯制</a></li>
+						<li><a href="sskill+edu_spe.html" target="_blank">专科直属班</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li style="position: relative">终生教育
+			<ul class="Sub">
+				<li><a href="school_details.html" target="_blank" >杭州社区大学</a></li>
+				<li><a href="school_details.html" target="_blank">杭州市民大学</a></li>
+				<li><a href="school_details.html" target="_blank">语言文字委员会</a></li>
+				<li><a href="school_details.html" target="_blank">杭州市终生学习网</a></li>
+				<li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+				<li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+				<li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+			</ul>
+		</li>
+		<li style="position: relative">学术研究
+			<ul class="Sub">
+				<li><a href="academic_res_test.html?aca_association" target="_blank">杭州远程教育协会</a></li>
+				<li><a href="academic_res_test.html?aca_news" target="_blank">学术研究新闻</a></li>
+				<li><a href="academic_res_test.html?aca_download" target="_blank">相关资料下载</a></li>
+				<li><a href="academic_res_test.html?aca_system" target="_blank">规章制度</a></li>
+			</ul>
+		</li>
+		<li style="position: relative">校园文化
+			<ul class="Sub">
+				<li><a href="school_culture.html" target="_blank">校园文化新闻</a></li>
+				<li><a href="school_culture.html" target="_blank">资料下载</a></li>
+				<li><a href="school_culture.html" target="_blank">校园指南</a></li>
+				<li><a href="school_culture.html" target="_blank">规章制度</a></li>
+			</ul>
+		</li>
+		<li style="position: relative">关于我们
+			<ul class="Sub">
+				<li><a href="AboutUS.html?school_detail" target="_blank">学校简介</a></li>
+				<li><a href="AboutUS.html?manager_or" target="_blank">学校机构设置</a></li>
+				<li><a href="AboutUS.html?video" target="_blank">校园风光</a></li>
+				<li><a href="AboutUS.html?photo" target="_blank">学校纪录片</a></li>
+			</ul>
+		</li>
+		<li style="position: relative">我的学习
+			<ul class="Sub">
+				<li><a href="http://baidu.com" target="_blank">浙大学习</a></li>
+				<li><a href="http://baidu.com" target="_blank">人大学习</a></li>
+				<li><a href="http://baidu.com" target="_blank">进入在线学习平台</a></li>
+			</ul>
+		</li>
+	</ul>
+
+</div>
+<!--lunbo-->
+<div class="f-cb"></div>
+<!--<div class="lunbo" style="height: 220px;">
+	<div class="div" style="position: relative">
+		<img src="img/sd22.jpg" alt="" id="background" style="position: relative; "/>
+		<h1 style=" color: whitesmoke;font-weight: bolder; font-size: 40px; position: absolute; top: 35%;;right: 8%; text-shadow: 2px 3px 10px #000">杭电大，值得信赖~~</h1>
+		<h1 style=" color: whitesmoke;font-weight: bolder; font-size: 40px; position: absolute; top: 55%;;right: 8%; text-shadow: 2px 3px 10px #000">选择我们把~~</h1>
+	</div>
+</div>-->
+<div class="div" style="position: relative">
+	<iframe runat="server" src="clouds.html" width="100%" height="450" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes">
+	</iframe>
+	<h1 style=" color: whitesmoke;font-weight: bolder; font-size: 40px; position: absolute; top: 35%;;right: 8%; text-shadow: 2px 3px 10px #000">杭电大，值得信赖~~</h1>
+	<h1 style=" color: whitesmoke;font-weight: bolder; font-size: 40px; position: absolute; top: 55%;;right: 8%; text-shadow: 2px 3px 10px #000">选择我们把~~</h1>
+</div>
+
+<div class="contain f-ma" style="margin-top: -4px;">
+	<div class="ol-out" style="width: 100%;background: #E3E8E1;;">
+		<ol class="f-ma">
+			<li>开放教育学院简介</li>
+			<li>开放教育学院机构设置</li>
+			<li>校园风光</li>
+			<li>学校纪录片</li>
+		</ol>
+	</div>
+
+
+	<div class="f-cb"></div>
+	<div class="tab_box">
+	<!--con_body-->
+	<div class="con_body f-ma" style="height: 650px;">
+		<div class="left f-fl">
+			<h3>电大概况</h3>
+			<p>
+				杭州广播电视大学是杭州市人民政府主办的一所以开放教育为主体、多元办学、多种教
+				育类型协调发展的现代开放大学，创办于1978年11月。2000年以来，学校先后被确立
+				为“杭州远程教育中心”、“杭州终身教育基地”、“中央广播电视大学继续教育基地”，
+				挂牌成立了“杭州社区大学”、“杭州市民大学”。2009年开始，学校与杭州科技职业技
+				术学院实行“两块牌子、一套班子”的管理体制。
+			</p>
+			<p>
+				学校现有杭州城区、高桥、严州三个校区，总占地面积约850亩，总建筑面积约37
+				万平方米。其中位于杭州富阳高教综合体内的高桥主校区，占地面积710余亩，建筑面
+				积约31万平方米，校园依山而建，水墨淡彩，功能齐全，宜学宜居，是目前浙江省内最
+				漂亮的山水校园、生态校园之一。学校教学、科研、实训和文体设施条件优越，现有各
+				类仪器设施设备总值近1亿元。学校建有国内水平一流的多功能、现代化大学图书馆和
+				信息网络中心，馆藏各类图书近70万册。学校拥有面积近3.5万平方米的独立创业园大
+				楼，方便师生开展创业创新活动。每年招收各类成人学历教育生超5000人，开展各类培
+				训逾10000人次。目前在编教职工520余人，专任教师270余人，副高级以上职称120
+				人。
+			</p>
+			<p>
+				学校坚持学历继续教育与非学历继续教育并举。以中央电大开放教育专本科学历教育
+				为主体，开设土木工程、机械设计制造及其自动化、计算机科学与技术、工商管理、行
+				政管理、社会工作、法学等30余个本专科专业。与浙江大学、中国人民大学、上海复
+				旦大学等多所国内知名高校合作，开设文经类、理工类本、专科专业近100个。同时，
+				积极拓展非学历继续教育，与政府、行业（协会）建立良好合作关系，广泛开展退役士
+				兵职业技能教育培训、移民创业致富培训、市政行业道路养护工技能培训、土建类五大
+				员培训、会计从业资格培训、会计电算化培训以及普通话培训等等。学校积极参与社区
+				教育、市民教育和终身教育。承办杭州市委宣传部主办的《杭州市民大学堂》电视栏目
+				年制作播出节目50余期，辐射面广，影响力大，备受市民好评。积极开展“杭州终身学
+				习公共服务平台”建设工作，项目被教育部、财政部确定为全国15个“终身学习公共服
+				务平台模式研究及示范应用”示范建设项目之一。
+			</p>
+			<p>
+				办学30多年来，学校已累计为社会培养各类毕业生近8万人，开展职业技术教育和
+				岗位培训近70万人次，为地方经济建设和社会发展输送了大量应用型人才。未来学校将
+				继续致力于不断提高办学质量和社会服务能力，主动适应学习型社会建设需要，努力建
+				设成为特色明显、服务领先、社会认可、和谐发展的国内省会城市一流开放大学。
+			</p>
+		</div>
+		<div class="right f-fr">
+			<img src="img/as_sc.png" alt="" style="margin: 120px 50px;width: 250px;height: 362px;"/>
+		</div>
+	</div>
+		<!--con_body2-->
+		<div class="con_body f-ma">
+			<div class="left f-fl">
+				<h3>学院机构设置</h3>
+			</div>
+			<div class="f-cb"></div>
+			<div class="manager_orgnize f-ma">
+				<p>
+					<strong>管理机构</strong> <br><br>
+					党委办公室、校长办公室、党委宣传部（新闻办公室） <br>
+					党委组织部、统战部、纪委办公室、监察审计室 <br>
+					党委学生工作部、学生处 <br>
+					招生就业处（行知创业学院办公室） <br>
+					教务处、实训处、督导室 <br>
+					科技处（高职教育研究所、校友校史办公室） <br>
+					产学研合作处（职业技能鉴定所） <br>
+					人事处、离退休工作处 <br>
+					计财财务处 <br>
+					公共事务管理处、校园规划与建设处、国有资产管理处 <br>
+					党委保卫部、人武部、保卫处 <br>
+					图书信息中心 <br><br><br>
+
+					<strong>教学部门</strong> <br><br>
+					开放教育学院（继续教育学院、成人教育学院）： <br>
+					综合办公室 <br>
+					招生办 <br>
+					教学科（开放学生科） <br>
+					教务科 <br>
+					培训部 <br>
+					成人教育科 <br>
+					远程教育科 <br>
+					延安路综合科 <br>
+					湘湖综合科 <br>
+					社区教育处： <br>
+					产学合作管理科 <br>
+					社区、市民教育科 <br>
+					培训管理科（语言文字办公室） <br><br><br>
+
+					公共教学部（国际教育交流中心）、社科部、军体部： <br>
+					综合办公室 <br>
+					教学管理科 <br>
+				</p>
+			</div>
+		</div>
+		<!--con_body3-->
+		<div class="con_body f-ma">
+			<div class="left f-fl">
+				<h3>校园风光</h3>
+			</div>
+			<div class="f-cb"></div>
+			<div class="manager_orgnize f-ma">
+				<ul class="portfolio">
+					<li><a href="javascript:;"><span>photo1</span><img src="img/photo1.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo2</span><img src="img/phone2.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo3</span><img src="img/phone3.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo4</span><img src="img/phone4.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo5</span><img src="img/phone5.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo6</span><img src="img/phone6.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo7</span><img src="img/phone7.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo8</span><img src="img/phone8.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo9</span><img src="img/phone9.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo10</span><img src="img/phone10.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo11</span><img src="img/phone11.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo12</span><img src="img/phone12.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo13</span><img src="img/phone13.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo14</span><img src="img/phone14.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo15</span><img src="img/phone15.png" alt=""></a></li>
+					<li><a href="javascript:;"><span>photo16</span><img src="img/phone16.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--con_body4-->
+		<div class="con_body f-ma">
+			<div class="left f-fl">
+				<h3>学校纪录片</h3>
+			</div>
+			<div class="f-cb"></div>
+			<div class="manager_orgnize f-ma" style="padding-left: 0; padding: 0 0; height: 700px; background: rgba(255,255,255,0);">
+				<video width="900" height="600" controls="controls">
+					<source src="video/test.mp4" type="video/mp4">
+					<source src="movie.ogg" type="video/ogg">
+					您的浏览器不支持 HTML5 video 标签。
+				</video>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<div class="copyright">
+	<div class="copyright-in" >
+		<div class="copaddress f-fl" style="margin-left: 50px;">
+			<p style="line-height: 68px;">翠苑校区地址：杭州市文一西路37号 邮政编码：310012</p>
+			<p>Copyright@ 杭州科技职业技术学院版权所有 地址：中国浙江杭州富阳高科路198号 邮编：311402 浙ICP备09020157号</p>
+		</div>
+		<div class="cop_us f-fl" style="margin-top: 30px;">
+			<img src="img/微信.png" alt="" style="float: left;width: 30px;height: 25px; margin-left: 10px"/>
+			<img src="img/QQ.png" alt="" style="float: left;width: 24px;height: 25px;margin-left: 10px"/>
+			<img src="img/新浪.png" alt="" style="float: left;width: 30px;height: 24px;margin-left: 10px"/>
+			<div class="f-cb"></div>
+			<h5 style="color: #FFF;display: block; margin-top: 5px; text-align:  center;width: 137px;">联系我们</h5>
+		</div>
+		<div style="width: 41px;height: 100px; position: fixed;top: 75%;right:0%; display: none;" id="return_sign" class="return_top">
+			<img src="img/返回上层.png" alt="" id="return_top"/>
+			<img src="img/更多.png" alt=""/>
+		</div>
+	</div>
+
+</div>
+<!--phote的-->
+<div id="pop">
+	<a href="javascript:;" class="pop-close">✕</a>
+	<img src="" alt="" class="pop-img">
+	<span class="pop-title"></span>
+</div>
+<div class="overlay" style="display:none;"></div>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+.lunbo {
+  position: relative;
+}
+.lunbo .fullBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.lunbo .div {
+  width: 100%;
+  height: 450px;
+  margin: 0 0;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.contain {
+  width: 100%;
+}
+.contain ol {
+  width: 1100px;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+}
+.contain ol li {
+  float: left;
+  cursor: pointer;
+  width: 25%;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 45px;
+  background: #E3E8E1;
+  color: #91928c;
+}
+.contain ol li a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.contain ol li:hover {
+  color: #000000;
+}
+.contain ol .add {
+  height: 40px;
+  border-bottom: 2px solid #4a668f;
+  color: black;
+  font-weight: bold;
+}
+.contain .con_body {
+  width: 1100px;
+}
+.contain .con_body .left {
+  width: 620px;
+}
+.contain .con_body .left h3 {
+  width: 120px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 40px;
+  border-bottom: 1px solid #4a668f;
+}
+.contain .con_body .left p {
+  width: 520px;
+  font-size: 12px;
+  text-indent: 24px;
+  word-break: break-all;
+  margin: 20px 40px;
+  letter-spacing: 1px;
+}
+.contain .con_body .manager_orgnize {
+  width: 900px;
+  border-radius: 30px;
+  height: 1290px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px 60px;
+  /* portfolio */
+}
+.contain .con_body .manager_orgnize p {
+  width: 774px;
+  font-size: 16px;
+  color: #323131;
+  line-height: 30px;
+}
+.contain .con_body .manager_orgnize .portfolio {
+  width: 100%;
+  margin-top: 40px;
+  overflow: hidden;
+  height: 1290px;
+}
+.contain .con_body .manager_orgnize .portfolio li {
+  float: left;
+  width: 195px;
+  height: 128px;
+  background: #333;
+  margin: 10px 20px;
+}
+.contain .con_body .manager_orgnize .portfolio a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.contain .con_body .manager_orgnize .portfolio img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.contain .con_body .manager_orgnize .portfolio a:hover img {
+  opacity: .3;
+  -webkit-filter: blur(5px);
+}
+.contain .con_body .manager_orgnize .portfolio span {
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 1.3em;
+  color: #fff;
+  left: 0px;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+.contain .con_body .manager_orgnize .portfolio a:hover span {
+  bottom: 50%;
+  margin-bottom: -15px;
+}
+/* pop */
+#pop {
+  padding: 0 10px;
+  position: fixed;
+  background: #fff;
+  overflow: hidden;
+  z-index: 100;
+  display: none;
+}
+.pop-close {
+  display: block;
+  float: right;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #393939;
+  font-size: 1.5em;
+}
+.pop-close:hover {
+  text-decoration: none;
+  color: #F4595B;
+}
+.pop-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.pop-title {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1.3em;
+  color: #999;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99;
+}

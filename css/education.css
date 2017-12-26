@@ -1,0 +1,235 @@
+.educontain {
+  width: 100%;
+}
+.educontain .div {
+  width: 100%;
+  height: 450px;
+  margin: 0 0;
+  overflow: hidden;
+  position: relative;
+}
+.educontain .fullBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.educontain .aboutus {
+  width: 840px;
+  height: 202px;
+  margin: 0 auto;
+  position: relative;
+}
+.educontain .aboutus .title_1 {
+  font-size: 18px;
+  color: #5c91d9;
+  width: 200px;
+  margin-top: 50px;
+  text-align: center;
+}
+.educontain .aboutus .title_2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  width: 200px;
+  margin-top: 10px;
+  text-align: center;
+}
+.educontain .aboutus p {
+  width: 100%;
+  font-size: 12px;
+  color: #888;
+  letter-spacing: 2px;
+  text-indent: 24px;
+  margin-top: 50px;
+}
+.zhaosheng {
+  width: 100%;
+  margin: 0 auto;
+}
+.zhaosheng .title_1 {
+  font-size: 18px;
+  color: #5c91d9;
+  width: 200px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+}
+.zhaosheng .title_2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  width: 200px;
+  margin-top: 10px;
+  text-align: center;
+}
+.zhaosheng .zhaosheng-in {
+  background: url("../img/bgbg.png");
+  background-repeat: repeat;
+  width: 100%;
+  height: 1040px;
+  margin-top: 30px;
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm {
+  width: 1100px;
+  height: 940px;
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school {
+  width: 416px;
+  height: 444px;
+  margin: 34px 66px;
+  position: relative;
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school .zs_detail {
+  width: 375px;
+  height: 154px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px ;
+  background: rgba(216, 217, 218, 0.8);
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school .zs_detail p {
+  font-size: 12px;
+  width: 217px;
+  display: block;
+  letter-spacing: 2px;
+  margin: 30px 10px;
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school .zs_detail img {
+  width: 97px;
+  height: 97px;
+  float: left;
+  margin: 20px 20px;
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school .zs_detail_top {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  background: rgba(163, 168, 171, 0.6);
+  -moz-transition: all 1s ease-in-out;
+  /* Firefox 4 */
+  -webkit-transition: all 1s ease-in-out;
+  /* Safari and Chrome */
+  -o-transition: all 1s ease-in-out;
+  /* Opera */
+  transition-timing-function: ease-in-out;
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school .zs_detail_top img {
+  cursor: pointer;
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school .zs_detail_top p {
+  color: white;
+  line-height: 50px;
+  font-size: 18px;
+  text-indent: 25px;
+  float: left;
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school .kuang {
+  width: 416px;
+  height: 444px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school .kuang img {
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  /* Firefox 4 */
+  -webkit-transition: all 0.3s ease-in-out;
+  /* Safari and Chrome */
+  -o-transition: all 0.3s ease-in-out;
+  /* Opera */
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school .kuang img:hover {
+  transform: scale(1.1);
+}
+.zhaosheng .zhaosheng-in .zhaosheng-inm .zs_school:hover .zs_detail_top {
+  opacity: 1;
+}
+.aboutus {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+.aboutus .title_1 {
+  font-size: 18px;
+  color: #5c91d9;
+  width: 200px;
+  margin-top: 50px;
+  text-align: center;
+}
+.aboutus .title_2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  width: 200px;
+  margin-top: 10px;
+  text-align: center;
+}
+.aboutus .address1 {
+  width: 228px;
+  height: 391px;
+  margin: 46px 36px;
+}
+.aboutus .address1 .kuang {
+  width: 222px;
+  height: 227px;
+  overflow: hidden;
+}
+.aboutus .address1 .kuang img {
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  /* Firefox 4 */
+  -webkit-transition: all 0.3s ease-in-out;
+  /* Safari and Chrome */
+  -o-transition: all 0.3s ease-in-out;
+  /* Opera */
+}
+.aboutus .address1 .kuang img:hover {
+  transform: scale(1.1);
+}
+.aboutus .address1 p {
+  width: 155px;
+  height: 102px;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 8px;
+  line-height: 45px;
+}
+.aboutus .detail {
+  width: 592px;
+}
+.aboutus .detail p {
+  float: left;
+  line-height: 30px;
+  margin: 70px 85px;
+  color: #888888;
+}
+.aboutus .detail p a {
+  text-decoration: none;
+  list-style: none;
+  color: #888888;
+}
+@media only screen and (max-width: 1200px) {
+  .title {
+    width: 1200px;
+  }
+  .nav {
+    width: 1200px;
+  }
+  .educontain {
+    width: 1200px;
+  }
+  .zhaosheng {
+    width: 1200px;
+  }
+  .copyright {
+    width: 1200px;
+  }
+}

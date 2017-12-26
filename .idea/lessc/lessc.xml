@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LessManager">
+    <option name="lessProfileMap">
+      <map>
+        <entry key="0">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="C:\Users\Administrator\Desktop\杭电大静态页\css" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="id" value="0" />
+              <option name="lessDirPath" value="C:\Users\Administrator\Desktop\杭电大静态页\less" />
+              <option name="name" value="ss" />
+            </LessProfile>
+          </value>
+        </entry>
+        <entry key="1">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="F:\BaiduYunDownload\大麦网\damai\css\pub" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="id" value="1" />
+              <option name="lessDirPath" value="F:\BaiduYunDownload\大麦网\damai\less\pub" />
+              <option name="name" value="less-pub" />
+            </LessProfile>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="F:\BaiduYunDownload\大麦网\damai\css" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="id" value="2" />
+              <option name="lessDirPath" value="F:\BaiduYunDownload\大麦网\damai\less" />
+              <option name="name" value="less-base" />
+            </LessProfile>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="E:\实习\杭电大静态页\css" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="id" value="3" />
+              <option name="lessDirPath" value="E:\实习\杭电大静态页\less" />
+              <option name="name" value="速度" />
+            </LessProfile>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

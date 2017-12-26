@@ -1,0 +1,194 @@
+.lunbo {
+  position: relative;
+}
+.lunbo .fullBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.lunbo .div {
+  width: 100%;
+  height: 450px;
+  margin: 0 0;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.contain {
+  width: 1300px;
+  margin: 0 auto;
+}
+.contain .sch_sign {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 140px;
+  height: 70px;
+  background: rgba(74, 102, 143, 0.5);
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  /* Firefox 4 */
+  -webkit-transition: all 0.5s ease-in-out;
+  /* Safari and Chrome */
+  -o-transition: all 0.5s ease-in-out;
+  /* Opera */
+}
+.contain .sch_sign p {
+  color: white;
+  font-size: 16px;
+  line-height: 70px;
+  font-weight: 600;
+  text-indent: 30px;
+}
+.contain .sch_sign:hover {
+  background: #4a668f;
+}
+.contain .train_class {
+  border-bottom: 2px solid #4a668f;
+  text-align: center;
+  line-height: 45px;
+  width: 100px;
+  margin-left: 40px;
+}
+.contain .train_contain {
+  width: 100%;
+  height: 1200px;
+  border-radius: 10px;
+  background: #E5E2ED;
+  padding-top: 35px;
+}
+.contain .train_contain .demo {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 0px 20px;
+}
+.contain .train_contain a {
+  display: block;
+  text-align: center;
+}
+.contain .train_contain .imgg {
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  -webkit-transition: all 2s ease;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transform: scale(1.2);
+  height: 380px;
+}
+.contain .train_contain .imgg .enter_kuaiji {
+  width: 150px;
+  height: 40px;
+  background: white;
+  border: 2px solid #41c3ac;
+  text-align: center;
+  line-height: 36px;
+  color: #41c3ac ;
+  left: 25%;
+  top: 99%;
+  position: absolute;
+}
+.contain .train_contain .enter_kuaiji:hover {
+  background: #41C3AC;
+  color: #ffffff;
+}
+.contain .train_contain .imgg p {
+  position: absolute;
+  left: 15%;
+  top: 35%;
+  color: white;
+  font-weight: bolder;
+}
+.contain .train_contain .imgg img {
+  border-radius: 50%;
+  border: 10px solid #41c3ac;
+}
+.contain .train_contain .infoo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 160px;
+  -webkit-transition: all 2s ease;
+  border-radius: 50%;
+  background-color: #41c3ac;
+  margin: 0 auto;
+  -webkit-transform: scale(1);
+  color: #ffffff;
+}
+.contain .train_contain .infoo h1 {
+  text-align: center;
+  line-height: 130px;
+  font-size: 16px;
+}
+.contain .train_contain div:hover .imgg {
+  -webkit-transform: scale(1);
+  opacity: 1;
+}
+.contain .train_contain div:hover .infoo {
+  background-color: rgba(65, 195, 172, 0);
+  -webkit-transform: scale(1.2);
+  color: #fff;
+}
+.contain .train_contain .course_1 {
+  width: 350px;
+  height: 360px;
+  margin: 10px 35px;
+  border: 1px solid #dee0df;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  /* Firefox 4 */
+  -webkit-transition: all 0.3s ease-in-out;
+  /* Safari and Chrome */
+  -o-transition: all 0.3s ease-in-out;
+  /* Opera */
+}
+.contain .train_contain .course_1 h3 {
+  text-align: center;
+  line-height: 50px;
+}
+.contain .train_contain .course_1 .course_bg {
+  width: 330px;
+  height: 187px;
+  background: url("../img/zzk.jpg");
+  margin: 10px 10px;
+}
+.contain .train_contain .course_1 button {
+  width: 150px;
+  height: 44px;
+  border: 1px solid #f75967;
+  background: white;
+  color: #f75967;
+  display: block;
+  margin-top: 20px;
+}
+.contain .train_contain .course_1 button:hover {
+  background: #F75967;
+  color: white;
+}
+.contain .train_contain .course_1:hover {
+  box-shadow: 1px 1px 20px #ccc;
+}
+@media only screen and (max-width: 1200px) {
+  .title {
+    width: 1200px;
+  }
+  .nav {
+    width: 1200px;
+  }
+  .focus {
+    width: 1200px;
+  }
+  .copyright {
+    width: 1200px;
+  }
+  body {
+    width: 1200px;
+  }
+  .contain {
+    width: 1200px;
+  }
+}

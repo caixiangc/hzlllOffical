@@ -1,0 +1,10 @@
+define(
+	$(function(){
+		$(".Sub>li").hover(function(){
+			$(this).find(".Sub-t").stop().slideToggle();
+		}),
+			$(".nav-menu>li").hover(function(){
+				$(this).find(".Sub").stop().slideToggle();
+			})
+	})
+)

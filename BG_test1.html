@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{ margin:0; padding:0;}
+		.box{ width: 100%; height: 450px; background: #000; text-align: center; line-height: 1000px; overflow:hidden; position:relative;}
+		img{ min-width: 100%; min-height: 600px; position:absolute;top:-40%;left:0}   /* 如果 只设置最小 min-width: 100% 的话 那么图片就会随着浏览器的放大而延伸，它就不管height了，所以要有.box这个视图overflow:hidden; 不然的话 它是会撑出来的 */
+	</style>
+</head>
+<body>
+	<div class="box">
+	  <img src="img/1.jpg" alt="">
+	</div>
+</body>
+</html>

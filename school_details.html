@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"  href="css/pub/global.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/school_detail.css"/>
+    <script src="js/require.js" data-main="app"></script>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullbg.min.js"></script>
+    <script type="text/javascript" src="js/L_slide.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--在ie运行最新的渲染模式-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--页面的宽度等于物理设备的宽度-->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]> 如果浏览器版本低于ie9 则引用下面的部分
+<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        *{margin:0; padding:0;}
+        .focus{margin:0 auto;width:100%;height:450px; position: relative;}
+        .thumb{display:inline-block; position:absolute; right:0px; bottom:0px; background:rgba(136,136,136,0.5);width:100%;height:120px;}
+        .thumb_in{width:1100px; margin:0 auto;}
+        .thumb .img{width:180px; height:80px; position:relative;margin-top:15px; margin-left:50px;  float:left;}
+        .thumb .img h1{width:100%;height:100%; display:block;color:white;position:absolute; top:1px ;left:1px; font-size:14px; text-indent:20px; line-height:25px; margin-top: 0px;}
+        .thumb .img h1:hover{ background:rgba(177,29,27,0.7);}
+        .thumb .img h1 a{color:white; text-decoration:none; list-style:none; margin:10px auto; display:block; width:120px;}
+        .thumb img{width:180px; height:80px; border:1px solid #ffffff; }
+        .fullBg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+        .div{width:100%; height:450px; margin:0 0; overflow:hidden; position:relative;}
+        @media only screen and (max-width:1200px){
+            .title{ width: 1200px;}
+            .nav{width: 1200px;}
+            .focus{ width: 1200px;}
+            .copyright{ width: 1200px;}
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $("#background").fullBg();
+        });
+
+    </script>
+</head>
+<body style="font-family: Microsoft YaHei;background: #f4f4f4">
+<!--title-->
+<div class="title">
+    <div class="title-in f-ma">
+        <div class="left f-fl">
+            <img src="img/杭科院logo.png" alt=""/>
+        </div>
+        <div class="mid f-fl">
+            <h1>杭州广播电视大学</h1>
+            <h2>继续教育学院/成人教育学院/开放教育学院</h2>
+        </div>
+        <div class="right f-fr" style="">
+            <a>在校职工</a><a>教职工</a><a>合作者</a><a style="font-size: 12px;">登入</a><a style="font-size: 12px;">注册</a>
+            <div style="margin-top: 15px;position: relative;font-size: 10px;">
+                <a href="">设为首页</a><a href="">|</a><a href="">加入收藏</a><br>
+                <a href="">信息公开</a><a href="">|</a><a href="">校园导航</a>
+                <div style="position: absolute; top:12px;right: -45px;">
+                    <input type="text" placeholder="输入关键词" style=""/>
+                    <input type="button" value="搜索"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--nav-->
+<div class="nav f-ma">
+    <ul class="nav-menu">
+        <li><a href="index.html">首页</a></li>
+        <li style="position: relative"><a href="#newss">新闻</a>
+            <ul class="Sub">
+                <li><a href="NEWS.html" target="_blank" >学校动态</a></li>
+                <li><a href="NEWS.html" target="_blank">通知公告</a></li>
+                <li><a href="NEWS.html" target="_blank">综合资讯</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">人才培养<!--position: absolute; 一般只和他上一级的position: relative;相呼应， 就近原则 -->
+            <ul class="Sub">
+                <li class="r_s"><a href="education.html" target="_blank">学历</a>
+                    <ul class="Sub-t">
+                        <li><a href="school_details.html" target="_blank">国家开放大学</a></li>
+                        <li><a href="school_details.html" target="_blank">浙江大学</a></li>
+                        <li><a href="school_details.html" target="_blank">中国人民大学</a></li>
+                        <li><a href="school_details.html" target="_blank">杭科院</a></li>
+                        <li><a href="school_details.html" target="_blank">华东师范大学</a></li>
+                    </ul>
+                </li>
+                <li><a href="train.html" target="_blank">培训</a></li>
+                <li class="r_s">技能+学历
+                    <ul class="Sub-t">
+                        <li><a href="skill+edu.html" target="_blank">五年一贯制</a></li>
+                        <li><a href="sskill+edu_spe.html" target="_blank">专科直属班</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li style="position: relative">终生教育
+            <ul class="Sub">
+                <li><a href="school_details.html" target="_blank" >杭州社区大学</a></li>
+                <li><a href="school_details.html" target="_blank">杭州市民大学</a></li>
+                <li><a href="school_details.html" target="_blank">语言文字委员会</a></li>
+                <li><a href="school_details.html" target="_blank">杭州市终生学习网</a></li>
+                <li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+                <li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+                <li><a href="school_details.html" target="_blank">市民大学堂</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">学术研究
+            <ul class="Sub">
+                <li><a href="academic_res_test.html?aca_association" target="_blank">杭州远程教育协会</a></li>
+                <li><a href="academic_res_test.html?aca_news" target="_blank">学术研究新闻</a></li>
+                <li><a href="academic_res_test.html?aca_download" target="_blank">相关资料下载</a></li>
+                <li><a href="academic_res_test.html?aca_system" target="_blank">规章制度</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">校园文化
+            <ul class="Sub">
+                <li><a href="school_culture.html" target="_blank">校园文化新闻</a></li>
+                <li><a href="school_culture.html" target="_blank">资料下载</a></li>
+                <li><a href="school_culture.html" target="_blank">校园指南</a></li>
+                <li><a href="school_culture.html" target="_blank">规章制度</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">关于我们
+            <ul class="Sub">
+                <li><a href="AboutUS.html?school_detail" target="_blank">学校简介</a></li>
+                <li><a href="AboutUS.html?manager_or" target="_blank">学校机构设置</a></li>
+                <li><a href="AboutUS.html?video" target="_blank">校园风光</a></li>
+                <li><a href="AboutUS.html?photo" target="_blank">学校纪录片</a></li>
+            </ul>
+        </li>
+        <li style="position: relative">我的学习
+            <ul class="Sub">
+                <li><a href="http://baidu.com" target="_blank">浙大学习</a></li>
+                <li><a href="http://baidu.com" target="_blank">人大学习</a></li>
+                <li><a href="http://baidu.com" target="_blank">进入在线学习平台</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+<div class="focus">
+    <div class="div">
+        <img src="img/sd1.jpg" alt=""id="background" style="position: relative"/>
+        <h1 style=" color: whitesmoke;font-weight: bolder; font-size: 40px; position: absolute; top: 30%;;right: 16%; text-shadow: 2px 3px 10px #000">杭电大，梦开始的地方~~</h1>
+        <h1 style=" color: whitesmoke;font-weight: bolder; font-size: 40px; position: absolute; top: 55%;;right: 16%; text-shadow: 2px 3px 10px #000">选择我们把~~</h1>
+    </div>
+</div>
+<div class="f-cb"></div><!--清楚浮动很重要，因为之前虽然.lunbo没有设置浮动，但是它里面的元素设有浮动和绝对定位，他们是脱离文档流的 ，要想不被覆盖那么就要清楚浮动-->
+<div class="contain">
+    <div class="notice">
+        <img src="img/notice.png" alt="" style="width: 120px;height: 67px; float: left; display: block;"/>
+        <div class="right">杭科院简介
+        </div>
+    </div>
+    <p>
+        杭州科技职业技术学院是杭州市人民政府主办的一所普通高等职业院校，1999年12月开始筹建，2009年2经浙江省人民政府批准、
+        国家教育部备案正式建院。学校与创办于1978年的杭州广播电视大学实行“两块牌子、一套班子”的管理体制。
+
+        学校坚持立足杭州、面向浙江、辐射长三角，紧密结合高新技术产业和现代服务业的发展需求，以土建类、制造类和文化教育类专业
+        为重点，电子信息类、艺术设计传媒类、财经类、旅游类等专业协调发展，职业教育与终身学习紧密对接，力争建设成为人民群众满意
+        的省内高职强校，为区域经济社会发展提供技术技能人才支持
+
+        学校现有杭州城区、高桥、严州三个校区，总占地面积约850亩，总建筑面积约37万平方米。其中位于杭州富阳高教综合体内的高
+        桥主校区，占地面积710余亩，建筑面积约31万平方米，校园依山而建，水墨淡彩，功能齐全，宜学宜居，是目前浙江省内最漂亮的
+        山水校园、生态校园之一
+    </p>
+    <div class="module" style="margin-top: 150px;">
+        <div class="left">
+            <img src="img/school_icon1.png" alt="" style="vertical-align: middle; margin-right: 10px;"/>
+            发展目标
+            <div style="clear: both"></div>
+            <p> <strong style="color: #d45353; font-size: 16px;">服</strong>务杭州区域经济社会发展，走特色发展道路，到2020年，学校育人模式更加创新，专业布局更加
+                优化，技术技能积累更加深厚，职业教育与继续教育融合更加深入，行知文化更加浓郁，治理体系更加完
+                善，校园环境更加优美，综合办学实力争取达到全国同类院校一流水平。</p>
+        </div>
+        <div class="right">
+            <div class="kuang">
+                <img src="img/mod1.png" alt=""/>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="module">
+        <div class="left" style="float: right">
+            <img src="img/特色优点.png" alt="" style="vertical-align: middle; margin-right: 10px;"/>
+            特色优势
+            <div style="clear: both"></div>
+            <p> <strong style="color: #d45353; font-size: 16px;">学</strong>校传承陶行知文化，积极践行陶行知先生“爱满天下”的教育精神和“教学做合一”的教育理念，以行知文化引
+                领育人模式改革、管理服务创新等方方面面工作。学校充分发挥“两块牌子”办学的体制优势，推进职业教育与继续教
+                育深度融合，不断提升办学质量和社会服务水平，为区域经济社会发展、杭州学习型城市建设提供人才和智力支撑。</p>
+        </div>
+        <div class="right" style="float: left">
+            <div class="kuang">
+                <img src="img/特色优点bg.png" alt=""/>
+            </div>
+        </div>
+    </div>
+
+    <div class="module">
+        <div class="left">
+            <img src="img/办学规模.png" alt="" style="vertical-align: middle; margin-right: 10px;"/>
+            办学规模
+            <div style="clear: both"></div>
+            <p> <strong style="color: #d45353; font-size: 16px;">学</strong>校现有高职全日制在校生9300余人，在编教职工520余人，副高级以上职称131人，专任教师290
+                余人。学校下设7个高职二级学院、1个开放教育学院、1个公共教学部，开设城建类、电子信息类、机电类
+                艺术设计传媒类、经济管理类、旅游管理类、文化教育类等七大类31个专业。 </p>
+        </div>
+        <div class="right">
+            <div class="kuang">
+                <img src="img/办学规模bg.png" alt=""/>
+            </div>
+        </div>
+    </div>
+
+    <div class="module">
+        <div class="left" style="float: right">
+            <img src="img/办学条件.png" alt="" style="vertical-align: middle; margin-right: 10px;"/>
+            办学条件
+            <div style="clear: both"></div>
+            <p> <strong style="color: #d45353; font-size: 16px;">学</strong>校现有杭州城区、富阳高桥、建德严州三个校区，总占地面积约850亩，总建筑面积约37万平方米。其中位于
+                杭州富阳高教综合体内的高桥主校区，占地面积710余亩，建筑面积约31万平方米，校园依山而建，水墨淡彩，功能
+                齐全，宜学宜居，是目前浙江省内最漂亮的山水校园、生态校园之一。学校教学、科研、实训和文体设施条件优越</p>
+        </div>
+        <div class="right" style="float: left">
+            <div class="kuang">
+                <img src="img/办学条件bg.png" alt=""/>
+            </div>
+        </div>
+    </div>
+
+    <div class="module" style="margin-top: 150px;">
+        <div class="left">
+            答疑解惑
+            <div style="clear: both"></div>
+            <p>1、网上人大课程考试难易程度如何？
+            </p>
+            <p><strong style="color: #d45353; font-size: 16px; ">答</strong>：人大所有课程考试前半月至一个月时间，均在网院课程学习论坛上提供考前辅导资料及相应参考答案
+                ，同时保证课程考试试卷上近70%分值的题目均可在考前辅导资料中获得，极大提高考生考试通过率。同时人大
+                任何一门课程均有三次免费考试机会，保证了学员在通过课程考试时不会产生无法预估的其它费用开支，例如补
+                考费等。</p>
+        </div>
+        <div class="left">
+            答疑解惑
+            <div style="clear: both"></div>
+            <p>1、网上人大课程考试难易程度如何？
+            </p>
+            <p><strong style="color: #d45353; font-size: 16px; ">答</strong>：人大所有课程考试前半月至一个月时间，均在网院课程学习论坛上提供考前辅导资料及相应参考答案
+                ，同时保证课程考试试卷上近70%分值的题目均可在考前辅导资料中获得，极大提高考生考试通过率。同时人大
+                任何一门课程均有三次免费考试机会，保证了学员在通过课程考试时不会产生无法预估的其它费用开支，例如补
+                考费等。</p>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <div class="copyright-in">
+        <div class="copaddress f-fl" style="margin-left: 50px;">
+            <p style="line-height: 68px;">翠苑校区地址：杭州市文一西路37号 邮政编码：310012</p>
+            <p>Copyright@ 杭州科技职业技术学院版权所有 地址：中国浙江杭州富阳高科路198号 邮编：311402 浙ICP备09020157号</p>
+        </div>
+        <div class="cop_us f-fl" style="margin-top: 30px;">
+            <img src="img/微信.png" alt="" style="float: left;width: 30px;height: 25px; margin-left: 10px"/>
+            <img src="img/QQ.png" alt="" style="float: left;width: 24px;height: 25px;margin-left: 10px"/>
+            <img src="img/新浪.png" alt="" style="float: left;width: 30px;height: 24px;margin-left: 10px"/>
+            <div class="f-cb"></div>
+            <h5 style="color: #FFF;display: block; margin-top: 5px; text-align:  center;width: 137px;">联系我们</h5>
+        </div>
+    </div>
+    <div style="width: 41px;height: 100px; position: fixed;top: 75%;right:0%; display: none;" id="return_sign" class="return_top">
+        <img src="img/返回上层.png" alt="" id="return_top"/>
+        <img src="img/更多.png" alt=""/>
+    </div>
+</div>
+<script>
+    $(window).load(function() {
+        $("#background").fullBg();
+    });
+    $(window).load(function() {
+        $("#background1").fullBg();
+    });
+    $(window).load(function() {
+        $("#background2").fullBg();
+    });
+    $(window).load(function() {
+        $("#background3").fullBg();
+    });
+    $(window).load(function() {
+        $("#background4").fullBg();
+    });
+</script>
+</body>
+</html>
